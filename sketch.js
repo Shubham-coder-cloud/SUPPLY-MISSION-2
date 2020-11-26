@@ -46,7 +46,7 @@ function setup() {
 		isStatic : true
 	}
 
-	packageBody = Bodies.circle(width/2 , 200 , 15 , {restitution:0.7,friction:0.1, isStatic:true});
+	packageBody = Bodies.circle(width/2 , 200 , 15 , {restitution:0.0,friction:0.1, isStatic:true});
 	boxB = Bodies.rectangle(400,640,200,20,options);
 	boxL = Bodies.rectangle(300,600,20,100,options);
 	boxR = Bodies.rectangle(500,600,20,100,options);
