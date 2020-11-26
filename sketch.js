@@ -63,7 +63,7 @@ function setup() {
 
 
 function draw() {
-  background("grey");
+  background("black");
   rectMode(CENTER);
   fill("white");
   packageSprite.x= packageBody.position.x 
